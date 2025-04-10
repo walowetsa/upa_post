@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
     // Insert the data into your Supabase table
     // Replace 'your_table_name' with your actual Supabase table name
     const { data: result, error } = await supabase
-      .from('testing_table')
+      .from('UPA Line')
       .insert([data]);
 
     if (error) {
